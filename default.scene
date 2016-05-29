@@ -1,0 +1,7 @@
+<scene stage="listing">
+  <sceneprops>
+    <title></title>
+  </sceneprops>
+
+  {% insert t_scenelisting() %}
+</scene>

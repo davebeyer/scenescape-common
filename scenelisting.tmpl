@@ -1,0 +1,12 @@
+
+  {% for scene in f_sceneSearch('descendents', 'limit:100', 'type:all') %}
+    <scene>
+      <sceneprops>
+        <scenepath>  {{- scene.scenePath()     -}}    </scenepath>
+        <title>      {{- scene.prop('title')   -}}    </title>
+        <description>{{scene.prop('description')}}    </description>
+        <sceneshot src="{{- scene.prop('sceneshot', 'src') -}}" />
+      </sceneprops>
+    </scene>
+  {% endfor %}
+
