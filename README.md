@@ -49,8 +49,6 @@ following:
 </scene>
 ```
 
-## 
-
 ## Common Templates
 
 These common templates can be inserted into any scene by inserting
