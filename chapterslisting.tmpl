@@ -1,5 +1,5 @@
 
-  {% for scene in f_sceneSearch('descendents', 'ignore:default.scene', 'limit:100', 'type:all') %}
+  {% for scene in f_sceneSearch('descendents', 'maxDepth:1', 'minDepth:1', 'limit:100', 'type:all') %}
     <scene>
       <sceneprops>
         <scenepath>  {{- scene.scenePath()     -}}    </scenepath>
