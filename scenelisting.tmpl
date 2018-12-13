@@ -3,6 +3,7 @@
     <scene>
       <sceneprops>
         <scenepath>  {{- scene.scenePath()     -}}    </scenepath>
+        <priority>   {{- scene.prop('priority')-}}    </priority>
         <title>      {{- scene.prop('title')   -}}    </title>
         <description>{{scene.prop('description')}}    </description>
         <sceneshot src="{{- scene.prop('sceneshot', 'src') -}}" />
